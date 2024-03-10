@@ -1,0 +1,257 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+}
+
+section {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    justify-content: space-between;
+    box-shadow: 0 4px 41px rgb(14 55 54 / 14%);
+    padding: 15px 10%;
+}
+
+header a {
+    text-decoration: none;
+    color: #000000;
+}
+
+header ul {
+    position: relative;
+    display: flex;
+}
+
+header ul li {
+    list-style: none;
+}
+
+header ul li a {
+    display: inline-block;
+    color: #333;
+    font-weight: 800;
+    margin-left: 40px;
+    text-decoration: none;
+}
+
+header ul li a:hover {
+    color: #99b1ff;
+}
+
+.desc {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.desc .textBox {
+    position: relative;
+    max-width: 600px;
+}
+
+.desc .textBox h2 {
+    columns: #333;
+    font-size: 1.5em;
+    line-height: 1.4em;
+    font-weight: 500;
+}
+
+.desc .textBox h2 span {
+    color: #fefefe;
+    font-size: 1em;
+    font-weight: 900;
+}
+
+.content section {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+}
+
+article {
+    position: relative;
+    width: 100%;
+    margin: 1px;
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+}
+
+.content-title {
+    
+    text-align: center;
+    font-size: 2em;
+}
+
+.card {
+    margin-top: 15vh;
+    position: relative;
+    height: 10%;
+    width: 100%;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    perspective: 1000px;
+    background-color: #99b1ff;
+    background-image: radial-gradient(at 47% 59%, rgb(222, 189, 26) 0px, transparent 50%),
+    radial-gradient(at 9% 32%, rgb(76, 78, 230) 0px, transparent 50%);
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+
+.card-img {
+    padding: 0;
+    height: 50%;
+    width: 50%;
+}
+
+.card-title {
+    font-size: 3vh;
+    padding-left: 1.5vh;
+    padding-bottom: 1vh
+}
+
+.card-desc,
+.card-textbox {
+    font-size: 2vh;
+    list-style: none;
+    padding-left: 1.5vh;
+}
+
+.card-desc,
+.card-textbox {
+    font-size: 2vh;
+}
+
+.card-desc span {
+    font-weight: bold;
+}
+
+.circle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    clip-path: circle(400px at left 525px);
+    transform: translate(-50%, -50%);
+    background-color: #e499ff;
+    background-image: radial-gradient(at 70% 69%, rgb(222, 189, 26) 0px, transparent 50%),
+    radial-gradient(at 20% 32%, rgb(76, 78, 230) 0px, transparent 50%);
+}
+
+
+
+.links-icon {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.links-icon p {
+    padding-top: 1.8vh;
+}
+
+.social a {
+    font-size: 30px;
+    margin: 2rem;
+}
+
+.social a .bx { 
+    padding: 5px;
+    color: #ffffff;
+    background: #000000;
+    border-radius: 50%;
+}
+
+.social a .bx:hover {
+    background: #e499ff;
+}
+
+.links {
+    margin: 1rem 0 1rem;
+}
+
+.links a {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #000000;
+    padding: 1rem;
+    text-decoration: none;
+}
+
+.links a:hover {
+    color: #99b1ff;
+    text-decoration: underline;
+}
+
+footer {
+    padding-bottom: 3vh;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-weight: bold;
+}
+
+.profile-container {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    margin: 5vh;
+    padding-left: 15vh;
+}
+
+aside {
+    display: flex;
+    align-items: center;
+}
+
+img {
+    border-radius: 10px;
+    width: 150px;
+    height: auto;
+}
+
+.profile-info h3 {  
+    margin-bottom: 4vh;
+    color: #99b1ff;
+}
+
+.profile-info {  
+    font-size: 1.2em;
+    font-weight: 600;
+    margin-left: 20px;
+    text-align: left;
+}
